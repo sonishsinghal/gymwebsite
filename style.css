@@ -1,0 +1,113 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/img/young-fitness-man-studio.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(7, 13, 26);
+}
+
+.left {
+    margin: 5px 8px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    color: white;
+    /* border: white 2px solid; */
+    display: inline-block;
+    text-align: center;
+}
+.left img{
+    width: 50px;
+    border: none;
+    border-radius: 4px;
+
+}
+.left p{
+    font-size: 12px;
+    margin: -8px;
+}
+
+.center {
+    color: white;
+    /* border: white 2px solid; */
+    display:block;
+    margin: 10px 25%;
+    text-align: center;
+    width: 40%;
+}
+
+.right {
+    margin: -1px 5px;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    color: white;
+    /* border: white 2px solid; */
+    display: inline-block;
+}
+
+/* .navbar {} */
+
+.navbar li {
+    display: inline-block;
+    /* margin: 0px 5px; */
+
+    padding: 1px 5px;
+    font-size: 15px;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+.navbar li a.active{
+    color: gray;
+}
+.navbar li a:hover{
+    color: rgb(110, 182, 241);
+}
+.btn{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    background-color: #52d2a9fc;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 10px;
+    font-size: 13px;
+    margin: 3px 3px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.container{
+    border: white 2px solid ;
+    border-radius: 6px;
+    margin: 6% 6%;
+    /* padding: 1%; */
+    width: 33%;
+    /* height: 50%; */
+    text-align: center;
+}
+.form-group input{
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    margin: 5.5px 0px;
+    width: 70%;
+}
+#heading{
+    /* color: white; */
+    color: #52d2a9fc;
+    margin: 8px 0px;
+}
+.container button{
+    display: block;
+    margin: 3% auto;
+    width: 28%;
+}
