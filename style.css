@@ -2,7 +2,7 @@ body {
     font-family: 'Baloo Bhai 2', cursive;
     margin: 0px;
     padding: 0px;
-    background-image: url('/img/young-fitness-man-studio.jpg');
+    background-image: url('img/young-fitness-man-studio.jpg');
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
